@@ -1252,7 +1252,7 @@ exports.createClient = function(arg0, arg1, arg2){
             return createClient_tls(arg0);
         }
 
-        return createClient_tcp(default_port, default_host, arg0 );
+        return createClient_tcp(arg0.port, arg0.host, arg0 );
 
     } else if( arg0 === null && arg1 === null ){
 
