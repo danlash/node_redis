@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mranney/node_redis.git"
+    "url": "git://github.com/danlash/node_redis.git#package"
   }
 }
